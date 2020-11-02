@@ -21,7 +21,7 @@ public class ApiResponse<T> {
     }
 
     public static ApiResponse<Void> success() {
-        return success((Object)null);
+        return success(null);
     }
 
     public static <T> ApiResponse<T> success(T data) {
